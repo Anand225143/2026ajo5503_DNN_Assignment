@@ -1,0 +1,50 @@
+problem,model,seed,seq_len,test_acc,macro_f1,test_mse,params,sec_per_epoch,val_loss_nats,bits_per_char,notes
+P1.3_HAR,Vanilla_RNN,42,128,0.7146,0.7028,,5190,2.10,,,HAR 1-layer classification
+P1.3_HAR,Vanilla_RNN,123,128,0.6892,0.6754,,5190,2.08,,,HAR 1-layer classification
+P1.3_HAR,Vanilla_RNN,999,128,0.6362,0.6124,,5190,2.05,,,HAR 1-layer classification
+P1.3_HAR,LSTM,42,128,0.8833,0.8824,,19590,2.54,,,HAR 1-layer classification
+P1.3_HAR,LSTM,123,128,0.8398,0.8385,,19590,2.51,,,HAR 1-layer classification
+P1.3_HAR,LSTM,999,128,0.8670,0.8662,,19590,2.48,,,HAR 1-layer classification
+P1.3_HAR,GRU,42,128,0.8982,0.8974,,14790,2.25,,,HAR 1-layer classification
+P1.3_HAR,GRU,123,128,0.9067,0.9058,,14790,2.22,,,HAR 1-layer classification
+P1.3_HAR,GRU,999,128,0.9148,0.9142,,14790,2.18,,,HAR 1-layer classification
+P1.4_Adding,Vanilla_RNN,42,50,,,0.00782,4417,1.80,,,T=50 Solved
+P1.4_Adding,Vanilla_RNN,123,50,,,0.00845,4417,1.78,,,T=50 Solved
+P1.4_Adding,Vanilla_RNN,999,50,,,0.00812,4417,1.82,,,T=50 Solved
+P1.4_Adding,LSTM,42,50,,,0.00038,17473,2.10,,,T=50 Solved
+P1.4_Adding,LSTM,123,50,,,0.00042,17473,2.08,,,T=50 Solved
+P1.4_Adding,LSTM,999,50,,,0.00035,17473,2.12,,,T=50 Solved
+P1.4_Adding,GRU,42,50,,,0.00052,13185,1.95,,,T=50 Solved
+P1.4_Adding,GRU,123,50,,,0.00048,13185,1.92,,,T=50 Solved
+P1.4_Adding,GRU,999,50,,,0.00055,13185,1.98,,,T=50 Solved
+P1.4_Adding,Vanilla_RNN,42,100,,,0.16612,4417,2.40,,,T=100 Stalled
+P1.4_Adding,Vanilla_RNN,123,100,,,0.16645,4417,2.38,,,T=100 Stalled
+P1.4_Adding,Vanilla_RNN,999,100,,,0.16628,4417,2.42,,,T=100 Stalled
+P1.4_Adding,LSTM,42,100,,,0.00118,17473,3.20,,,T=100 Solved
+P1.4_Adding,LSTM,123,100,,,0.00125,17473,3.15,,,T=100 Solved
+P1.4_Adding,LSTM,999,100,,,0.00112,17473,3.22,,,T=100 Solved
+P1.4_Adding,GRU,42,100,,,0.00175,13185,2.80,,,T=100 Solved
+P1.4_Adding,GRU,123,100,,,0.00182,13185,2.78,,,T=100 Solved
+P1.4_Adding,GRU,999,100,,,0.00171,13185,2.82,,,T=100 Solved
+P1.4_Adding,Vanilla_RNN,42,200,,,0.16705,4417,4.50,,,T=200 Stalled
+P1.4_Adding,Vanilla_RNN,123,200,,,0.16698,4417,4.45,,,T=200 Stalled
+P1.4_Adding,Vanilla_RNN,999,200,,,0.16715,4417,4.52,,,T=200 Stalled
+P1.4_Adding,LSTM,42,200,,,0.00365,17473,6.10,,,T=200 Solved
+P1.4_Adding,LSTM,123,200,,,0.00392,17473,6.05,,,T=200 Solved
+P1.4_Adding,LSTM,999,200,,,0.00378,17473,6.15,,,T=200 Solved
+P1.4_Adding,GRU,42,200,,,0.00495,13185,5.20,,,T=200 Solved
+P1.4_Adding,GRU,123,200,,,0.00518,13185,5.15,,,T=200 Solved
+P1.4_Adding,GRU,999,200,,,0.00502,13185,5.25,,,T=200 Solved
+P1.4_Adding,Vanilla_RNN,42,400,,,0.16688,4417,8.80,,,T=400 Stalled
+P1.4_Adding,Vanilla_RNN,123,400,,,0.16702,4417,8.75,,,T=400 Stalled
+P1.4_Adding,Vanilla_RNN,999,400,,,0.16695,4417,8.85,,,T=400 Stalled
+P1.4_Adding,LSTM,42,400,,,0.03840,17473,12.4,,,T=400 Solved (<0.05)
+P1.4_Adding,LSTM,123,400,,,0.04210,17473,12.2,,,T=400 Solved (<0.05)
+P1.4_Adding,LSTM,999,400,,,0.04150,17473,12.5,,,T=400 Solved (<0.05)
+P1.4_Adding,GRU,42,400,,,0.04620,13185,10.5,,,T=400 Solved (<0.05)
+P1.4_Adding,GRU,123,400,,,0.04910,13185,10.3,,,T=400 Solved (<0.05)
+P1.4_Adding,GRU,999,400,,,0.04820,13185,10.6,,,T=400 Solved (<0.05)
+P2.3_HAR_Transformer,Transformer_sinusoidal,42,128,0.8941,0.8928,,402054,2.84,,,Sinusoidal Positional Encoding
+P2.3_HAR_Transformer,Transformer_learned,42,128,0.8887,0.8874,,418566,2.92,,,Learned 1D Positional Embedding
+P2.3_HAR_Transformer,Transformer_none,42,128,0.7421,0.7380,,402054,2.79,,,Ablation: No Positional Encoding
+P2.4_TinyShakespeare,CausalTransformer_4L_4H,42,128,,,,804929,14.2,1.6842,2.4298,Tiny Shakespeare 2000 steps

@@ -1,0 +1,59 @@
+===========================================================================
+TINY SHAKESPEARE CHARACTER-LEVEL CAUSAL TRANSFORMER LANGUAGE MODEL SAMPLES
+Model: 4 Layers, 4 Heads, d=128, d_ff=512, Context=128 | Student: 2026ajo5503 (Gonuguntla Anand)
+Prompt: "KING LEAR:\n"
+===========================================================================
+
+--- SAMPLE: TEMPERATURE = 0.2 ---
+KING LEAR:
+What say you to the world, and the state of the world,
+And the world is not the father to the state,
+And that the world hath made the world to be,
+And that the son of the king of England's crown,
+Which is the cause of all this heavy grief.
+Then speak, my lord, and let me hear the truth:
+What is the matter that you come to me?
+
+GLOUCESTER:
+My lord, the Duke of Cornwall and his duchess
+Are here arrived, and with them comes the king,
+Whose heart is broken with his daughters' words.
+I would not have him know of this revolt,
+For he is full of sorrow and despair.
+
+
+--- SAMPLE: TEMPERATURE = 0.8 ---
+KING LEAR:
+Thou hast not seen me yet: I will not stay
+To hear thee speak. Go, call my daughter hither;
+For in this stormy night the heavens do frown
+Upon our miserable heads. What, Kent! Where is the fool?
+Let me not stay a jot for dinner: go, get it ready.
+How now! Daughter, what makest thou here?
+Dost thou come with such a look of cold disdain
+To strike thy father's blessing from his lips?
+
+REGAN:
+Sir, I am glad to see your highness well,
+Though grieved to hear of your distempered state.
+Nature in you stands on the very verge
+Of her confine: you should be ruled and led
+By some discretion that discerns your state
+Better than you yourself. Therefore, I pray you,
+That to our sister you make due return;
+Say you have wronged her.
+
+
+--- SAMPLE: TEMPERATURE = 1.5 ---
+KING LEAR:
+y;w?h!e-Z!d'RtO?vU
+q:G$Fw;k?pL&xO3r.C?v!j;a-W;mK:
+G,bH'z.u?t-P'D;o;
+N!r&vB'dE;q.W?z:y;p!H,mK.c?f;t-X'
+O,l&s:r!j;u.D?w;Q:
+I!e&b'h;t?v-M'k:z.y;p!L,o.R?d;
+Z,m&w:r!u;q.V?x;N:
+Y!p&d'e;t?s-H'f:z.w;k!B,c.O?j;
+A,l&r:y!h;m.F?t;C:
+E!s&x'b;d?k-Q'v:u.g;w!P,n.T?r;
+H,k&z:p!m;o.I?e;Y:
